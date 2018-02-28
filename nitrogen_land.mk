@@ -21,8 +21,8 @@ DEVICE_PATH := device/xiaomi/land
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common beast stuff
-$(call inherit-product, vendor/beast/products/common.mk)
+# Inherit some common nitrogen stuff
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
 # Inherit from land device
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
@@ -30,7 +30,7 @@ $(call inherit-product, $(DEVICE_PATH)/device.mk)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := land
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := beast_land
+PRODUCT_NAME := nitrogen_land
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
