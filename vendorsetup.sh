@@ -1,0 +1,2 @@
+add_lunch_combo beast_land-userdebug
+add_lunch_combo beast_land-eng

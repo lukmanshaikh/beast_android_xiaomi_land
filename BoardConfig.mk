@@ -226,3 +226,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 -include vendor/xiaomi/land/BoardConfigVendor.mk
 
 ALLOW_MISSING_DEPENDENCIES=true
+TARGET_COMPILE_WITH_MSM_KERNEL := true
