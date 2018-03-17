@@ -41,4 +41,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="land-user 6.0.1 MMB29M V9.2.2.0.MALMIEK release-keys"
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
-    ro.product.model
+    ro.product.model=Redmi 3s
